@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+
+header {
+    background-color: #ad343e; /* Rosegold color */
+    color: #efd09e; /* Golden color */
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.4em;
+    color:black;
+}
+
+nav {
+    background-color: black;
+    padding: 1em 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #ad343e; /* Rosegold color */
+    font-weight: bold;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #efd09e; /* Golden color */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #b76e79; /* Rosegold color */
+    color: #efd09e; /* Golden color */
+}
+
+section {
+    padding: 2em;
+}
+
+section h2 {
+    color: #ad343e; /* Rosegold color */
+}
+
+section p {
+    line-height: 1.6;
+    color: black;
+}
+
+section#home,
+section#products,
+section#about,
+section#contact {
+    background-color: #efd09e; /* Golden color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #ad343e; /* Rosegold color */
+    color: black; /* Golden color */
+    padding: 1em 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+    }
+
+    section {
+        padding: 1em;
+    }
+}
+
+
